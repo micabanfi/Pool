@@ -7,14 +7,16 @@ public class Person {
     private String surname;
     private String phone;
     private Rating rating;
+    private String gender;
     private Preferences preferences;
     private ArrayList<Vehicle> vehicles;
 
-    public Person(String name, String surname, String career, String phone,boolean smoke,boolean food){
+    public Person(String name, String surname, String career, String phone,boolean smoke,boolean food,String gender){
         this.name=name;
         this.surname=surname;
         this.phone=phone;
         this.preferences = new Preferences(career, smoke, food);
+        this.gender=gender;
         //inicializar raiting
     }
 
