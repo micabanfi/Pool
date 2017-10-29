@@ -8,4 +8,15 @@ public class Credential {
         this.password=password;
         this.userName=userName;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if (this == obj)
+            return true;
+        if (!(obj instanceof Credential))
+            return false;
+        Credential aux = (Credential) obj;
+
+        return this.userName.equals(aux.userName) && this.password.equals(aux.password);
+    }
 }

@@ -54,4 +54,8 @@ public class User {
     public void removeVehicle(Vehicle vehicle){
         vehicles.remove(vehicle);
     }
+
+    public boolean equalCredentials(Credential credential){
+        return credential.equals(this.credential);
+    }
 }
