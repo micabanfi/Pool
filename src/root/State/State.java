@@ -112,9 +112,19 @@ public class State {
        }
    }
 
-/*    public Ride modifyRide(Ride ride){
-        
+    public Ride modifyRide(Ride ride) throws InvalidFields{
+        for(int i = 0; i < users.size(); i++){
+            Ride aux = currentRides.get(i);
+            if (aux.equals(ride)){
+                currentRides.remove(i);
+                currentRides.add(ride);
+                return ride;
+            }
+        }
+        throw new InvalidFields("No Ride With The Same Characteristics.");
 
-    }*/
+    }
+
+    
 
 }

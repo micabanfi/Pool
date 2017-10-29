@@ -59,4 +59,16 @@ public class Ride {
     public HashMap<Person, Integer> getRatings(){
         return ratings;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if (this == obj)
+            return true;
+        if (!(obj instanceof Credential))
+            return false;
+        Ride aux = (Ride) obj;
+
+        return aux.date.equals(date) && aux.driver.equals(driver);
+
+    }
 }
