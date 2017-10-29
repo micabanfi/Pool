@@ -19,4 +19,8 @@ public class Person {
         this.food=food;
         //inicializar raiting
     }
+
+    public void addVehicle(Vehicle vehicle){
+        this.vehicles.add(vehicle);
+    }
 }
