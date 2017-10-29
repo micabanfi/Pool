@@ -13,14 +13,16 @@ public class Ride {
     private int availableSeats;
     private HashMap<Person, Integer> ratings;
     private Permissions permissions;
+    private Date date;
 
-    public Ride(Route route, Vehicle vehicle, Person driver, ArrayList<Person> passengers, Permissions permissions){
+    public Ride(Route route, Vehicle vehicle, Person driver, ArrayList<Person> passengers, Permissions permissions,Date date){
         this.route=route;
         this.vehicle=vehicle;
         this.driver=driver;
         this.passengers=passengers;
         this.availableSeats=vehicle.getSeats();
         this.permissions = permissions;
+        this.date=date;
     }
 
     public Route getRoute(){
