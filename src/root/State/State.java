@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class State {
     private ArrayList<User> users;
     private ArrayList<Ride> currentRides;
-    //private ArrayList<root.Ride.Ride> expiredRides;
+    private ArrayList<root.Ride.Ride> expiredRides;
 
     public User login(Credential cred) throws InvalidCredentials{
         return autorize(cred);
@@ -27,6 +27,10 @@ public class State {
 
         return user;
     }
+
+
+
+
 
 
 }

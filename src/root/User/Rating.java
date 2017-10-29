@@ -9,8 +9,8 @@ public class Rating {
         this.negative=0;
     }
 
-    public void modifyRating(boolean rate){
-        if(rate)
+    public void modifyRating(boolean isGood){
+        if(isGood)
             positive++;
         else
             negative++;
