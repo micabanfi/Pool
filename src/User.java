@@ -15,4 +15,7 @@ public class User {
         ridesToDo.add(ride);
     }
 
+    public void moveRide(Ride ride){
+        ridesHistory.add(ride);
+    }
 }
