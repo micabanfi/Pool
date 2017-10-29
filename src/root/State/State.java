@@ -1,12 +1,15 @@
 package root.State;
 
+import root.AlreadyRated;
 import root.InvalidCredentials;
 import root.InvalidFields;
 import root.User.Credential;
 import root.Ride.Ride;
+import root.User.Person;
 import root.User.User;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class State {
     private ArrayList<User> users;
@@ -14,18 +17,23 @@ public class State {
     private ArrayList<root.Ride.Ride> expiredRides;
 
     public User login(Credential cred) throws InvalidCredentials{
-        return autorize(cred);
+        return authorize(cred);
     }
 
     public User register(User user) throws InvalidFields{
 
     }
 
-    public User autorize(Credential cred) throws InvalidCredentials{
+    public User authorize(Credential cred) throws InvalidCredentials{
         User user;
         //Busca al usuario que coincida con la credencial
-
-        return user;
+        for (int i = 0; i < users.size(); i++) {
+            User aux = users.get(i);
+            if (aux.equalCredentials(cred)) {
+                return aux;
+            }
+        }
+        throw new InvalidCredentials();
     }
 
 
@@ -75,8 +83,26 @@ public class State {
    }
      */
 
+    public void rateRide(Credential cred, Ride ride, Integer rating) throws InvalidCredentials, AlreadyRated{
+        User user = authorize(cred);
+        ArrayList<Ride> expiredRides = user.getExpiredRides();
 
+        //Validacion de rating
 
+        //
 
+        if(expiredRides.contains(ride)){
+            Ride aux = expiredRides.get(expiredRides.indexOf(ride));
+            HashMap<Person, Integer> ratings = aux.getRatings();
+            if(ratings.containsKey(user.getPerson())){
+                if(ratings.get(user.getPerson()) == null)
+                    ratings.put(user.getPerson(), rating);
+                else
+                    throw new AlreadyRated();
+            }
+        }
+    }
+
+    
 
 }

@@ -53,5 +53,7 @@ public class Ride {
         return permissions;
     }
 
-    //Algun metodo para el raiting
+    public HashMap<Person, Integer> getRatings(){
+        return ratings;
+    }
 }
