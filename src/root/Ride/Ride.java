@@ -3,6 +3,7 @@ package root.Ride;
 import root.User.*;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 
 public class Ride {
@@ -32,6 +33,8 @@ public class Ride {
     public Person getDriver(){
         return driver;
     }
+
+    public Date getDate() { return date; }
 
     public ArrayList<Person> getPassengers(){
         return passengers;

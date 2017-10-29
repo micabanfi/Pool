@@ -56,6 +56,6 @@ public class User {
     }
 
     public boolean equalCredentials(Credential credential){
-        return credential.equals(this.credential);
+        return this.credential.equals(credential);
     }
 }
