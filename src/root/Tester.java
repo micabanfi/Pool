@@ -1,4 +1,4 @@
-<<<<<<< HEAD:src/root/Tester.java
+import root.User.Person;<<<<<<< HEAD:src/root/Tester.java
 package root;
 
 public class Tester {
