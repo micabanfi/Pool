@@ -34,6 +34,8 @@ public class Ride {
         return driver;
     }
 
+    public Date getDate() { return date; }
+
     public ArrayList<Person> getPassengers(){
         return passengers;
     }
@@ -58,8 +60,11 @@ public class Ride {
         return ratings;
     }
 
+<<<<<<< HEAD
     public Date getDate() { return date; }
 
+=======
+>>>>>>> master
     @Override
     public boolean equals(Object obj){
         if (this == obj)

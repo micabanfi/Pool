@@ -15,15 +15,20 @@
       <file leaf-file-name="State.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/root/State/State.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="829">
               <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+=======
+            <state relative-caret-position="704">
+              <caret line="87" column="8" lean-forward="false" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Route.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/root/Ride/Route.java">
+      <file leaf-file-name="InvalidFields.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/root/InvalidFields.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -32,12 +37,44 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Route.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/root/Ride/Route.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Ride.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/root/Ride/Ride.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="357">
               <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
               <folding />
+=======
+            <state relative-caret-position="147">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1509312487742" expanded="false" signature="794:804" ph=" { " />
+                <marker date="1509312487742" expanded="false" signature="817:823" ph=" }" />
+                <marker date="1509312487742" expanded="false" signature="854:864" ph=" { " />
+                <marker date="1509312487742" expanded="false" signature="878:884" ph=" }" />
+                <marker date="1509312487742" expanded="false" signature="974:984" ph=" { " />
+                <marker date="1509312487742" expanded="false" signature="1002:1008" ph=" }" />
+                <marker date="1509312487742" expanded="false" signature="1044:1054" ph=" { " />
+                <marker date="1509312487742" expanded="false" signature="1076:1082" ph=" }" />
+                <marker date="1509312487742" expanded="false" signature="1125:1135" ph=" { " />
+                <marker date="1509312487742" expanded="false" signature="1152:1158" ph=" }" />
+                <marker date="1509312487742" expanded="false" signature="1201:1211" ph=" { " />
+                <marker date="1509312487742" expanded="false" signature="1228:1234" ph=" }" />
+                <marker date="1509312487742" expanded="false" signature="1275:1285" ph=" { " />
+                <marker date="1509312487742" expanded="false" signature="1304:1310" ph=" }" />
+              </folding>
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -55,8 +92,13 @@
       <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/root/Client/Client.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="68">
               <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+=======
+            <state relative-caret-position="336">
+              <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
@@ -75,8 +117,13 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/root/User/User.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="646">
               <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+=======
+            <state relative-caret-position="798">
+              <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="method#User#0;class#User#0" expanded="false" />
                 <element signature="e#1203#1204#0" expanded="true" />
@@ -163,16 +210,18 @@
         <option value="$PROJECT_DIR$/src/root/User/Credential.java" />
         <option value="$PROJECT_DIR$/src/root/User/User.java" />
         <option value="$PROJECT_DIR$/src/root/Ride/Ride.java" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/src/root/AlreadyRated.java" />
+=======
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/src/root/State/State.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -383,7 +432,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+=======
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+>>>>>>> Stashed changes
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -426,7 +479,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1509312487742" expanded="false" signature="794:804" ph=" { " />
+            <marker date="1509312487742" expanded="false" signature="817:823" ph=" }" />
+            <marker date="1509312487742" expanded="false" signature="854:864" ph=" { " />
+            <marker date="1509312487742" expanded="false" signature="878:884" ph=" }" />
+            <marker date="1509312487742" expanded="false" signature="974:984" ph=" { " />
+            <marker date="1509312487742" expanded="false" signature="1002:1008" ph=" }" />
+            <marker date="1509312487742" expanded="false" signature="1044:1054" ph=" { " />
+            <marker date="1509312487742" expanded="false" signature="1076:1082" ph=" }" />
+            <marker date="1509312487742" expanded="false" signature="1125:1135" ph=" { " />
+            <marker date="1509312487742" expanded="false" signature="1152:1158" ph=" }" />
+            <marker date="1509312487742" expanded="false" signature="1201:1211" ph=" { " />
+            <marker date="1509312487742" expanded="false" signature="1228:1234" ph=" }" />
+            <marker date="1509312487742" expanded="false" signature="1275:1285" ph=" { " />
+            <marker date="1509312487742" expanded="false" signature="1304:1310" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -580,6 +649,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+<<<<<<< Updated upstream
+=======
+          <folding>
+            <element signature="e#400#401#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/root/User/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <marker date="1509305285468" expanded="false" signature="618:628" ph=" { " />
+            <marker date="1509305285468" expanded="false" signature="713:719" ph=" }" />
+            <marker date="1509305285468" expanded="false" signature="769:775" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/root/User/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/root/User/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="method#User#0;class#User#0" expanded="false" />
+            <element signature="e#1203#1204#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/root/User/Credential.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -593,12 +708,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/root/Client/Client.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="68">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+=======
+        <state relative-caret-position="336">
+          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/root/User/Vehicle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -621,26 +742,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/root/Ride/Route.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/root/Ride/Route.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
+=======
+    <entry file="file://$PROJECT_DIR$/src/root/InvalidFields.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+>>>>>>> Stashed changes
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/root/User/User.java">
+    <entry file="file://$PROJECT_DIR$/src/root/Ride/Ride.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="646">
           <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+=======
+        <state relative-caret-position="147">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+>>>>>>> Stashed changes
           <folding>
-            <element signature="method#User#0;class#User#0" expanded="false" />
-            <element signature="e#1203#1204#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <marker date="1509312487742" expanded="false" signature="794:804" ph=" { " />
+            <marker date="1509312487742" expanded="false" signature="817:823" ph=" }" />
+            <marker date="1509312487742" expanded="false" signature="854:864" ph=" { " />
+            <marker date="1509312487742" expanded="false" signature="878:884" ph=" }" />
+            <marker date="1509312487742" expanded="false" signature="974:984" ph=" { " />
+            <marker date="1509312487742" expanded="false" signature="1002:1008" ph=" }" />
+            <marker date="1509312487742" expanded="false" signature="1044:1054" ph=" { " />
+            <marker date="1509312487742" expanded="false" signature="1076:1082" ph=" }" />
+            <marker date="1509312487742" expanded="false" signature="1125:1135" ph=" { " />
+            <marker date="1509312487742" expanded="false" signature="1152:1158" ph=" }" />
+            <marker date="1509312487742" expanded="false" signature="1201:1211" ph=" { " />
+            <marker date="1509312487742" expanded="false" signature="1228:1234" ph=" }" />
+            <marker date="1509312487742" expanded="false" signature="1275:1285" ph=" { " />
+            <marker date="1509312487742" expanded="false" signature="1304:1310" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -666,8 +816,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/root/State/State.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="829">
           <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+=======
+        <state relative-caret-position="704">
+          <caret line="87" column="8" lean-forward="false" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
