@@ -1,5 +1,10 @@
 package root;
 
+import root.User.Credential;
+import root.User.Person;
+import root.User.User;
+import root.User.Vehicle;
+
 public class Tester{
 
     public static void main(String[] args){

@@ -3,6 +3,7 @@ package root.Ride;
 import root.User.*;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 
 public class Ride {
@@ -55,5 +56,19 @@ public class Ride {
 
     public HashMap<Person, Integer> getRatings(){
         return ratings;
+    }
+
+    public Date getDate() { return date; }
+
+    @Override
+    public boolean equals(Object obj){
+        if (this == obj)
+            return true;
+        if (!(obj instanceof Credential))
+            return false;
+        Ride aux = (Ride) obj;
+
+        return aux.date.equals(date) && aux.driver.equals(driver);
+
     }
 }
